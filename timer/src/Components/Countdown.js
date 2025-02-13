@@ -61,7 +61,7 @@ function Countdown() {
 
     const calculateTimeRemaining = (targetTime) => {
         const currentTime = new Date().getTime();
-        const timeDifference = targetTime - currentTime;
+        const timeDifference = //FINISH THIS (USE targetTime in your calculation)
         const secondsRemaining = 
                 Math.max(Math.floor(timeDifference / 1000), 0);
         return secondsRemaining;
@@ -69,7 +69,7 @@ function Countdown() {
 
     const formatTimeRemaining = (seconds) => {
         const days = Math.floor(seconds / (3600 * 24));
-        const hours = Math.floor((seconds % (3600 * 24)) / 3600);
+        const hours = //FINISH THIS 
         const minutes = Math.floor((seconds % 3600) / 60);
         const remainingSeconds = seconds % 60;
 
@@ -111,7 +111,7 @@ function Countdown() {
             <div className="main-container">
                 <div className="input-container m-3">
                     <h1 className="text-center text-success">
-                        GeeksForGeeks Countdown Timer
+                        {/* ADD A TITLE FOR YOUR TIMER APP */}
                     </h1>
                     <input
                         type="text"
@@ -132,7 +132,7 @@ function Countdown() {
                         <option value="">Select a Category</option>
                         <option value="Meeting">Meeting</option>
                         <option value="Birthday">Birthday</option>
-                        <option value="Reminder">Reminder</option>
+                        {/* ADD AN OPTION FOR REMINDER (like birthday and meeting) */}
                     </select>
                     <input
                         className="form-control m-2"
@@ -194,7 +194,7 @@ function Countdown() {
                                         <div>
                                             <h1>
                                                 <strong>
-                                                    {timeRemaining.hours}
+                                                    {/* Display Hours */}
                                                 </strong>
                                             </h1>
                                         </div>
@@ -207,7 +207,7 @@ function Countdown() {
                                         <div>
                                             <h1>
                                                 <strong>
-                                                {timeRemaining.minutes}
+                                                {/* Display Minutes */}
                                                 </strong>
                                             </h1>
                                         </div>
@@ -228,7 +228,7 @@ function Countdown() {
                                     </div>
                                 </div>
                                 <button
-                                    className="btn btn-dark m-2"
+                                    className=//FORMAT REMOVE BUTTON (i.e. "text-dark")
                                     onClick={() => removeTimer(timer.id)}
                                     disabled={timer.timeRemaining <= 0}
                                 >
