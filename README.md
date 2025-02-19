@@ -7,6 +7,12 @@ cd timer
 ## Install dependencies
 npm install
 
+## Edit Files
+Fix all the errors in the code!
+The main files you will be working with are:
+- Countdown.js
+- Countdown.css
+
 ## Run project
 npm start
 
