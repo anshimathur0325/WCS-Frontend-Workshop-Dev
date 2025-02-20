@@ -1,0 +1,62 @@
+/* General Styles */
+/* Feel free to play around with any of these values
+   to see how they affect your website. */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /*change color*/
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: #000000; /*change color*/
+    color: white; /*change color*/
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+section {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #fffff; /*change color*/
+}
+
+/* Project Links */
+a {
+    color: #ff0000; /*change color*/
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background: #333;
+    color: white; /*change color*/
+    padding: 10px 0;
+    margin-top: 20px;
+}
