@@ -7,6 +7,9 @@ cd timer
 ## Install dependencies
 npm install
 
+## If you dont have NPM: 
+https://www.geeksforgeeks.org/how-to-download-and-install-node-js-and-npm/
+
 ## Edit Files
 Fix all the errors in the code!
 The main files you will be working with are:
